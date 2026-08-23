@@ -1,0 +1,16 @@
+/* Crie um programa em C que peÃ§a ao usuÃ¡rio um nÃºmero inteiro.
+Em seguida, mostre na tela qual Ã© o nÃºmero antecessor e o sucessor desse valor.*/
+
+#include <stdio.h>
+
+int main() {
+    int N;
+
+    printf("Digite um numero: ");
+    scanf("%d", &N);
+
+    printf("O antecessor de %d e %d\n", N, N - 1);
+    printf("O sucessor de %d e %d\n", N, N + 1);
+
+    return 0;
+}
