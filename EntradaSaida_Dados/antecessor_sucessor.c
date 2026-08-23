@@ -9,8 +9,8 @@ int main() {
     printf("Digite um numero: ");
     scanf("%d", &N);
 
-    printf("O antecessor de %d e %d\n", N, N - 1);
-    printf("O sucessor de %d e %d\n", N, N + 1);
+    printf("O antecessor de %d  e %d\n", N, N - 1);
+    printf("O sucessor de %d  e %d\n", N, N + 1);
 
     return 0;
 }
